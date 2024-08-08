@@ -25,7 +25,7 @@ const Resume = () => {
           <p className="text-white text-2xl md:text-4xl">
             You can view my resume
           </p>
-          <button className="bg-blue-600 text-white px-3 py-1 border-2 mt-4 hover:bg-blue-700 hover:scale-125">
+          <button className="bg-blue-600 text-white px-3 py-1 border-2 mt-4 rounded-md hover:bg-blue-700 hover:scale-125">
             <a href={config.link} download="Resume">
               Download
             </a>

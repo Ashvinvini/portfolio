@@ -72,7 +72,7 @@ const Contact = () => {
               name="message"
               id="message"
               placeholder="Enter your message"
-              className="field-mess"
+              className="field-mess rounded-md"
             ></textarea>
           </div>
           <button

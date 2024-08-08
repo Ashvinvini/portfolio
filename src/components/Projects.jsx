@@ -47,14 +47,14 @@ const Projects = () => {
                 src={project.image}
                 alt="QRCode"
               />
-              <div className="absolute top-0 left-0 bg-blue-300 h-full w-full opacity-0 duration-500 hover:opacity-50 ">
+              <div className="absolute top-0 left-0 bg-blue-400 h-full w-full opacity-0 duration-500 hover:opacity-100 ">
                 <p className="py-5 text-center font-bold">{project.title}</p>
+                <button className="absolute bottom-4 left-20 md:left-32 rounded-md bg-slate-500 border-2 px-2 py-1 text-white  ">
+                  <a href={project.link} target="blank">
+                    View Result
+                  </a>
+                </button>
               </div>
-              <button className="absolute bottom-4 left-20 md:left-32 bg-slate-500 border-2 px-2 py-1 text-white">
-                <a href={project.link} target="blank">
-                  View Result
-                </a>
-              </button>
             </div>
           ))}
         </div>
