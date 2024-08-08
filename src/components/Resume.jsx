@@ -1,6 +1,6 @@
 import React from "react";
 import resumeImg from "../assets/resume.jpg";
-import resume from "../assets/Ashvinresume.pdf";
+import resume from "../assets/AshvinVinithResume.pdf";
 const Resume = () => {
   const config = {
     link: resume,
