@@ -43,14 +43,14 @@ const Projects = () => {
           {config.projects.map((project) => (
             <div className="relative ">
               <img
-                className=" w-[300px] h-[200px] md:h-[300px] md:w-[350px] p-2"
+                className=" w-[250px] h-[200px] md:h-[300px] md:w-[350px] p-2"
                 src={project.image}
                 alt="QRCode"
               />
               <div className="absolute top-0 left-0 bg-blue-300 h-full w-full opacity-0 duration-500 hover:opacity-50 ">
                 <p className="py-5 text-center font-bold">{project.title}</p>
               </div>
-              <button className="absolute bottom-4 left-28 md:left-32 bg-slate-500 border-2 px-2 py-1 text-white">
+              <button className="absolute bottom-4 left-20 md:left-32 bg-slate-500 border-2 px-2 py-1 text-white">
                 <a href={project.link}>View Result</a>
               </button>
             </div>
