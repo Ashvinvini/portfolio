@@ -1,7 +1,7 @@
 import React from "react";
 import heroImg from "../assets/hero.png";
-import { FaLinkedin, FaFacebookSquare } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 export const Hero = () => {
   const config = {
@@ -25,11 +25,12 @@ export const Hero = () => {
             >
               <FaLinkedin size={40} />
             </a>
-            <a href="#" className="hover:text-white">
-              <FaFacebookSquare size={40} />
-            </a>
-            <a href="#" className="hover:text-white">
-              <FaSquareXTwitter size={40} />
+            <a
+              href="https://github.com/Ashvinvini?tab=repositories"
+              target="blank"
+              className="hover:text-white"
+            >
+              <FaGithub size={40} />
             </a>
           </div>
         </div>

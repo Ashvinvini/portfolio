@@ -9,17 +9,17 @@ const Projects = () => {
       {
         image: QRCode,
         title: "QR Code Generator",
-        link: "",
+        link: "https://qrcodeproject1.netlify.app",
       },
       {
         image: bmi,
         title: "BMI Calculator",
-        link: "",
+        link: "https://projectbmicals.netlify.app",
       },
       {
         image: weather,
         title: "Weather App",
-        link: "",
+        link: "https://weatherappproject2.netlify.app",
       },
     ],
   };
@@ -40,8 +40,8 @@ const Projects = () => {
           </p>
         </div>
         <div className="image flex flex-col md:flex md:flex-row items-center md:justify-between mt-4 md:mt-20  gap-2">
-          {config.projects.map((project) => (
-            <div className="relative ">
+          {config.projects.map((project, index) => (
+            <div className="relative " key={index + 1}>
               <img
                 className=" w-[250px] h-[200px] md:h-[300px] md:w-[350px] p-2"
                 src={project.image}
@@ -51,7 +51,9 @@ const Projects = () => {
                 <p className="py-5 text-center font-bold">{project.title}</p>
               </div>
               <button className="absolute bottom-4 left-20 md:left-32 bg-slate-500 border-2 px-2 py-1 text-white">
-                <a href={project.link}>View Result</a>
+                <a href={project.link} target="blank">
+                  View Result
+                </a>
               </button>
             </div>
           ))}
