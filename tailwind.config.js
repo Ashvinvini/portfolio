@@ -5,6 +5,7 @@ export default {
     extend: {},
     fontFamily: {
       Sriracha: "Sriracha",
+      Nunito: "Nunito",
     },
     plugins: [],
   },
