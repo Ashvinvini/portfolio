@@ -19,7 +19,7 @@ export const Hero = () => {
           </h1>
           <div className="flex gap-4 pt-8 justify-center md:justify-start">
             <a
-              href="https://www.linkedin.com/feed/"
+              href="https://www.linkedin.com/in/ashvinvinith30/"
               target="blank"
               className="hover:text-white"
             >
